@@ -1,0 +1,17 @@
+# Git
+.git
+.gitignore
+
+# IDE files
+.settings
+.project
+.classpath
+*.code-workspace
+.DS_Store
+.tools
+
+# Build output (will be rebuilt inside Docker)
+target/
+
+# Logs
+*.log
