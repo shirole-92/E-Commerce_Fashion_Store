@@ -27,10 +27,13 @@ RUN rm -rf /usr/local/tomcat/webapps/ROOT
 # Copy built WAR as ROOT (so app runs at /)
 COPY --from=build /app/target/fashion-store-0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps/ROOT.war
 
-# Copy SQLite DB to Tomcat working directory
+# Copy SQLite DB to Tomcat working directory (relative path in DBConnection resolves here)
 COPY --from=build /app/fashion_store.db /usr/local/tomcat/fashion_store.db
 
-# Expose port
+# Set working directory to where Tomcat runs (matches jdbc:sqlite:fashion_store.db)
+WORKDIR /usr/local/tomcat
+
+# Expose port — Render uses $PORT env var; default Tomcat uses 8080
 EXPOSE 8080
 
 # Start Tomcat
