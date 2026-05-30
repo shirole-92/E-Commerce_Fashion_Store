@@ -1,0 +1,476 @@
+29-May-2026 11:10:01.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.19
+29-May-2026 11:10:01.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 19:36:50 UTC
+29-May-2026 11:10:01.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.19.0
+29-May-2026 11:10:01.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+29-May-2026 11:10:01.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.7.7
+29-May-2026 11:10:01.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+29-May-2026 11:10:01.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-26.jdk/Contents/Home
+29-May-2026 11:10:01.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           26+35-2893
+29-May-2026 11:10:01.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-May-2026 11:10:01.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 11:10:01.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 11:10:01.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/conf/logging.properties
+29-May-2026 11:10:01.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2026 11:10:01.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-May-2026 11:10:01.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-May-2026 11:10:01.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-May-2026 11:10:01.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-May-2026 11:10:01.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-May-2026 11:10:01.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-May-2026 11:10:01.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-May-2026 11:10:01.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-May-2026 11:10:01.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 11:10:01.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 11:10:01.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/temp
+29-May-2026 11:10:01.640 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/rupeshshirole/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+29-May-2026 11:10:01.744 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-May-2026 11:10:01.754 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [204] milliseconds
+29-May-2026 11:10:01.773 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-May-2026 11:10:01.773 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.19]
+29-May-2026 11:10:01.786 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/FashionStore.war]
+29-May-2026 11:10:02.009 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-May-2026 11:10:02.019 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/FashionStore.war] has finished in [232] ms
+29-May-2026 11:10:02.020 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/docs]
+29-May-2026 11:10:02.027 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/docs] has finished in [6] ms
+29-May-2026 11:10:02.027 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/manager]
+29-May-2026 11:10:02.037 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/manager] has finished in [10] ms
+29-May-2026 11:10:02.037 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/examples]
+29-May-2026 11:10:02.096 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/examples] has finished in [59] ms
+29-May-2026 11:10:02.096 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/ROOT]
+29-May-2026 11:10:02.101 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/ROOT] has finished in [5] ms
+29-May-2026 11:10:02.101 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/host-manager]
+29-May-2026 11:10:02.109 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/host-manager] has finished in [8] ms
+29-May-2026 11:10:02.111 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-May-2026 11:10:02.114 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [359] milliseconds
+29-May-2026 11:17:06.103 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+29-May-2026 11:17:06.105 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-May-2026 11:17:06.105 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-May-2026 11:17:06.113 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [FashionStore] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+29-May-2026 11:17:06.113 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [FashionStore] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:391)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:123)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:201)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+ java.base/java.lang.Thread.run(Thread.java:1516)
+29-May-2026 11:17:06.114 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-May-2026 11:17:06.116 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-May-2026 11:17:08.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.19
+29-May-2026 11:17:08.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 19:36:50 UTC
+29-May-2026 11:17:08.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.19.0
+29-May-2026 11:17:08.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+29-May-2026 11:17:08.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.7.7
+29-May-2026 11:17:08.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+29-May-2026 11:17:08.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-26.jdk/Contents/Home
+29-May-2026 11:17:08.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           26+35-2893
+29-May-2026 11:17:08.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-May-2026 11:17:08.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 11:17:08.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 11:17:08.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/conf/logging.properties
+29-May-2026 11:17:08.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2026 11:17:08.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-May-2026 11:17:08.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-May-2026 11:17:08.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-May-2026 11:17:08.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-May-2026 11:17:08.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-May-2026 11:17:08.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-May-2026 11:17:08.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-May-2026 11:17:08.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-May-2026 11:17:08.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 11:17:08.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 11:17:08.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/temp
+29-May-2026 11:17:08.549 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/rupeshshirole/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+29-May-2026 11:17:08.648 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-May-2026 11:17:08.657 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [174] milliseconds
+29-May-2026 11:17:08.668 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-May-2026 11:17:08.668 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.19]
+29-May-2026 11:17:08.675 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/FashionStore.war]
+29-May-2026 11:17:08.681 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/FashionStore] was found with a last modified time that did not match the associated WAR. It will be deleted.
+29-May-2026 11:17:08.809 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-May-2026 11:17:08.819 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/FashionStore.war] has finished in [143] ms
+29-May-2026 11:17:08.819 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/docs]
+29-May-2026 11:17:08.826 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/docs] has finished in [7] ms
+29-May-2026 11:17:08.826 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/manager]
+29-May-2026 11:17:08.836 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/manager] has finished in [10] ms
+29-May-2026 11:17:08.836 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/examples]
+29-May-2026 11:17:08.897 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/examples] has finished in [61] ms
+29-May-2026 11:17:08.897 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/ROOT]
+29-May-2026 11:17:08.902 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/ROOT] has finished in [5] ms
+29-May-2026 11:17:08.902 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/host-manager]
+29-May-2026 11:17:08.907 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/host-manager] has finished in [5] ms
+29-May-2026 11:17:08.909 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-May-2026 11:17:08.913 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [255] milliseconds
+29-May-2026 12:38:26.434 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.19
+29-May-2026 12:38:26.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 19:36:50 UTC
+29-May-2026 12:38:26.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.19.0
+29-May-2026 12:38:26.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+29-May-2026 12:38:26.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.7.7
+29-May-2026 12:38:26.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+29-May-2026 12:38:26.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-26.jdk/Contents/Home
+29-May-2026 12:38:26.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           26+35-2893
+29-May-2026 12:38:26.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-May-2026 12:38:26.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 12:38:26.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 12:38:26.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/conf/logging.properties
+29-May-2026 12:38:26.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2026 12:38:26.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-May-2026 12:38:26.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-May-2026 12:38:26.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-May-2026 12:38:26.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-May-2026 12:38:26.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-May-2026 12:38:26.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-May-2026 12:38:26.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-May-2026 12:38:26.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-May-2026 12:38:26.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 12:38:26.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 12:38:26.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/temp
+29-May-2026 12:38:26.445 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/rupeshshirole/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+29-May-2026 12:38:26.546 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-May-2026 12:38:26.554 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1015)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1017)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:708)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:731)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:525)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:333)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:296)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:247)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1282)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1295)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:624)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1013)
+		... 11 more
+29-May-2026 12:38:26.554 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [191] milliseconds
+29-May-2026 12:38:26.569 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-May-2026 12:38:26.569 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.19]
+29-May-2026 12:38:26.578 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/FashionStore.war]
+29-May-2026 12:38:26.689 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-May-2026 12:38:26.702 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/FashionStore.war] has finished in [123] ms
+29-May-2026 12:38:26.703 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/docs]
+29-May-2026 12:38:26.709 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/docs] has finished in [6] ms
+29-May-2026 12:38:26.709 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/manager]
+29-May-2026 12:38:26.718 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/manager] has finished in [9] ms
+29-May-2026 12:38:26.719 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/examples]
+29-May-2026 12:38:26.775 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/examples] has finished in [56] ms
+29-May-2026 12:38:26.775 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/ROOT]
+29-May-2026 12:38:26.780 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/ROOT] has finished in [5] ms
+29-May-2026 12:38:26.780 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/host-manager]
+29-May-2026 12:38:26.786 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/host-manager] has finished in [6] ms
+29-May-2026 12:38:26.787 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [231] milliseconds
+29-May-2026 12:38:26.790 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:525)
+		at java.base/sun.nio.ch.Net.bind(Net.java:514)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:645)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:326)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:222)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:577)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:847)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+29-May-2026 12:38:26.790 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-May-2026 12:38:26.790 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-May-2026 12:38:26.796 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-May-2026 12:38:26.797 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-May-2026 12:38:46.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.19
+29-May-2026 12:38:46.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 19:36:50 UTC
+29-May-2026 12:38:46.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.19.0
+29-May-2026 12:38:46.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+29-May-2026 12:38:46.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.7.7
+29-May-2026 12:38:46.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+29-May-2026 12:38:46.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-26.jdk/Contents/Home
+29-May-2026 12:38:46.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           26+35-2893
+29-May-2026 12:38:46.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-May-2026 12:38:46.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 12:38:46.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 12:38:46.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/conf/logging.properties
+29-May-2026 12:38:46.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2026 12:38:46.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-May-2026 12:38:46.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-May-2026 12:38:46.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-May-2026 12:38:46.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-May-2026 12:38:46.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-May-2026 12:38:46.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-May-2026 12:38:46.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-May-2026 12:38:46.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-May-2026 12:38:46.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 12:38:46.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 12:38:46.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/temp
+29-May-2026 12:38:46.597 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/rupeshshirole/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+29-May-2026 12:38:46.694 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-May-2026 12:38:46.706 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [173] milliseconds
+29-May-2026 12:38:46.728 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-May-2026 12:38:46.732 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.19]
+29-May-2026 12:38:46.749 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/FashionStore.war]
+29-May-2026 12:38:46.846 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-May-2026 12:38:46.857 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/FashionStore.war] has finished in [107] ms
+29-May-2026 12:38:46.857 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/docs]
+29-May-2026 12:38:46.864 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/docs] has finished in [7] ms
+29-May-2026 12:38:46.864 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/manager]
+29-May-2026 12:38:46.875 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/manager] has finished in [10] ms
+29-May-2026 12:38:46.875 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/examples]
+29-May-2026 12:38:46.934 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/examples] has finished in [59] ms
+29-May-2026 12:38:46.934 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/ROOT]
+29-May-2026 12:38:46.938 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/ROOT] has finished in [4] ms
+29-May-2026 12:38:46.938 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/host-manager]
+29-May-2026 12:38:46.944 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/host-manager] has finished in [6] ms
+29-May-2026 12:38:46.945 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-May-2026 12:38:46.950 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [243] milliseconds
+29-May-2026 13:02:44.951 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+29-May-2026 13:02:44.951 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-May-2026 13:02:44.952 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-May-2026 13:02:44.959 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [FashionStore] registered the JDBC driver [org.sqlite.JDBC] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+29-May-2026 13:02:44.961 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-May-2026 13:02:44.962 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-May-2026 13:02:45.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.19
+29-May-2026 13:02:45.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 19:36:50 UTC
+29-May-2026 13:02:45.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.19.0
+29-May-2026 13:02:45.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+29-May-2026 13:02:45.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.7.7
+29-May-2026 13:02:45.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+29-May-2026 13:02:45.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-26.jdk/Contents/Home
+29-May-2026 13:02:45.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           26+35-2893
+29-May-2026 13:02:45.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-May-2026 13:02:45.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 13:02:45.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 13:02:45.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/conf/logging.properties
+29-May-2026 13:02:45.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2026 13:02:45.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-May-2026 13:02:45.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-May-2026 13:02:45.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-May-2026 13:02:45.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-May-2026 13:02:45.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-May-2026 13:02:45.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-May-2026 13:02:45.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-May-2026 13:02:45.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-May-2026 13:02:45.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 13:02:45.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 13:02:45.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/temp
+29-May-2026 13:02:45.149 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/rupeshshirole/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+29-May-2026 13:02:45.247 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-May-2026 13:02:45.258 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [184] milliseconds
+29-May-2026 13:02:45.270 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-May-2026 13:02:45.270 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.19]
+29-May-2026 13:02:45.272 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/docs]
+29-May-2026 13:02:45.357 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/docs] has finished in [84] ms
+29-May-2026 13:02:45.357 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/manager]
+29-May-2026 13:02:45.367 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/manager] has finished in [10] ms
+29-May-2026 13:02:45.367 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/examples]
+29-May-2026 13:02:45.434 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/examples] has finished in [67] ms
+29-May-2026 13:02:45.434 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/ROOT]
+29-May-2026 13:02:45.441 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/ROOT] has finished in [7] ms
+29-May-2026 13:02:45.441 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/host-manager]
+29-May-2026 13:02:45.447 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/host-manager] has finished in [6] ms
+29-May-2026 13:02:45.448 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-May-2026 13:02:45.451 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [192] milliseconds
+29-May-2026 13:04:26.772 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+29-May-2026 13:04:26.773 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-May-2026 13:04:26.774 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-May-2026 13:04:26.781 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-May-2026 13:04:26.783 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-May-2026 13:04:26.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.19
+29-May-2026 13:04:26.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 19:36:50 UTC
+29-May-2026 13:04:26.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.19.0
+29-May-2026 13:04:26.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+29-May-2026 13:04:26.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.7.7
+29-May-2026 13:04:26.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+29-May-2026 13:04:26.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-26.jdk/Contents/Home
+29-May-2026 13:04:26.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           26+35-2893
+29-May-2026 13:04:26.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-May-2026 13:04:26.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 13:04:26.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 13:04:26.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/conf/logging.properties
+29-May-2026 13:04:26.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2026 13:04:26.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-May-2026 13:04:26.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-May-2026 13:04:26.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-May-2026 13:04:26.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-May-2026 13:04:26.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-May-2026 13:04:26.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-May-2026 13:04:26.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-May-2026 13:04:26.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-May-2026 13:04:26.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 13:04:26.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 13:04:26.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/temp
+29-May-2026 13:04:26.941 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/rupeshshirole/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+29-May-2026 13:04:27.045 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-May-2026 13:04:27.056 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [186] milliseconds
+29-May-2026 13:04:27.068 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-May-2026 13:04:27.068 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.19]
+29-May-2026 13:04:27.071 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/docs]
+29-May-2026 13:04:27.162 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/docs] has finished in [90] ms
+29-May-2026 13:04:27.162 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/manager]
+29-May-2026 13:04:27.173 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/manager] has finished in [11] ms
+29-May-2026 13:04:27.173 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/examples]
+29-May-2026 13:04:27.240 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/examples] has finished in [67] ms
+29-May-2026 13:04:27.240 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/ROOT]
+29-May-2026 13:04:27.247 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/ROOT] has finished in [7] ms
+29-May-2026 13:04:27.247 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/host-manager]
+29-May-2026 13:04:27.253 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/host-manager] has finished in [6] ms
+29-May-2026 13:04:27.254 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-May-2026 13:04:27.257 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [200] milliseconds
+29-May-2026 13:07:36.924 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+29-May-2026 13:07:36.924 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-May-2026 13:07:36.925 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-May-2026 13:07:36.932 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-May-2026 13:07:36.934 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-May-2026 13:07:37.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.19
+29-May-2026 13:07:37.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 19:36:50 UTC
+29-May-2026 13:07:37.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.19.0
+29-May-2026 13:07:37.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+29-May-2026 13:07:37.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.7.7
+29-May-2026 13:07:37.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+29-May-2026 13:07:37.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-26.jdk/Contents/Home
+29-May-2026 13:07:37.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           26+35-2893
+29-May-2026 13:07:37.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-May-2026 13:07:37.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 13:07:37.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 13:07:37.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/conf/logging.properties
+29-May-2026 13:07:37.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2026 13:07:37.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-May-2026 13:07:37.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-May-2026 13:07:37.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-May-2026 13:07:37.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-May-2026 13:07:37.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-May-2026 13:07:37.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-May-2026 13:07:37.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-May-2026 13:07:37.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-May-2026 13:07:37.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 13:07:37.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 13:07:37.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/temp
+29-May-2026 13:07:37.090 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/rupeshshirole/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+29-May-2026 13:07:37.185 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-May-2026 13:07:37.198 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [175] milliseconds
+29-May-2026 13:07:37.218 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-May-2026 13:07:37.218 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.19]
+29-May-2026 13:07:37.222 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/docs]
+29-May-2026 13:07:37.305 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/docs] has finished in [83] ms
+29-May-2026 13:07:37.305 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/manager]
+29-May-2026 13:07:37.315 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/manager] has finished in [10] ms
+29-May-2026 13:07:37.316 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/examples]
+29-May-2026 13:07:37.378 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/examples] has finished in [62] ms
+29-May-2026 13:07:37.378 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/ROOT]
+29-May-2026 13:07:37.385 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/ROOT] has finished in [7] ms
+29-May-2026 13:07:37.385 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/host-manager]
+29-May-2026 13:07:37.390 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/host-manager] has finished in [5] ms
+29-May-2026 13:07:37.391 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-May-2026 13:07:37.395 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [195] milliseconds
+29-May-2026 13:08:24.648 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+29-May-2026 13:08:24.648 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-May-2026 13:08:24.649 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-May-2026 13:08:24.655 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-May-2026 13:08:24.657 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-May-2026 13:08:24.804 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.19
+29-May-2026 13:08:24.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 19:36:50 UTC
+29-May-2026 13:08:24.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.19.0
+29-May-2026 13:08:24.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+29-May-2026 13:08:24.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.7.7
+29-May-2026 13:08:24.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+29-May-2026 13:08:24.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-26.jdk/Contents/Home
+29-May-2026 13:08:24.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           26+35-2893
+29-May-2026 13:08:24.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-May-2026 13:08:24.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 13:08:24.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 13:08:24.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/conf/logging.properties
+29-May-2026 13:08:24.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2026 13:08:24.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-May-2026 13:08:24.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-May-2026 13:08:24.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-May-2026 13:08:24.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-May-2026 13:08:24.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-May-2026 13:08:24.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-May-2026 13:08:24.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-May-2026 13:08:24.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-May-2026 13:08:24.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 13:08:24.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 13:08:24.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/temp
+29-May-2026 13:08:24.814 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/rupeshshirole/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+29-May-2026 13:08:24.918 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-May-2026 13:08:24.929 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [183] milliseconds
+29-May-2026 13:08:24.943 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-May-2026 13:08:24.943 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.19]
+29-May-2026 13:08:24.946 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/docs]
+29-May-2026 13:08:25.039 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/docs] has finished in [92] ms
+29-May-2026 13:08:25.040 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/manager]
+29-May-2026 13:08:25.050 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/manager] has finished in [10] ms
+29-May-2026 13:08:25.050 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/examples]
+29-May-2026 13:08:25.113 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/examples] has finished in [63] ms
+29-May-2026 13:08:25.113 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/ROOT]
+29-May-2026 13:08:25.120 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/ROOT] has finished in [7] ms
+29-May-2026 13:08:25.120 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/host-manager]
+29-May-2026 13:08:25.125 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/host-manager] has finished in [5] ms
+29-May-2026 13:08:25.127 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-May-2026 13:08:25.130 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [200] milliseconds
+29-May-2026 13:09:11.116 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+29-May-2026 13:09:11.116 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-May-2026 13:09:11.118 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-May-2026 13:09:11.125 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-May-2026 13:09:11.128 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-May-2026 13:09:11.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.19
+29-May-2026 13:09:11.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 19:36:50 UTC
+29-May-2026 13:09:11.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.19.0
+29-May-2026 13:09:11.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+29-May-2026 13:09:11.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.7.7
+29-May-2026 13:09:11.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+29-May-2026 13:09:11.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-26.jdk/Contents/Home
+29-May-2026 13:09:11.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           26+35-2893
+29-May-2026 13:09:11.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-May-2026 13:09:11.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 13:09:11.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 13:09:11.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/conf/logging.properties
+29-May-2026 13:09:11.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2026 13:09:11.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-May-2026 13:09:11.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-May-2026 13:09:11.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-May-2026 13:09:11.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-May-2026 13:09:11.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-May-2026 13:09:11.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-May-2026 13:09:11.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-May-2026 13:09:11.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-May-2026 13:09:11.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 13:09:11.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19
+29-May-2026 13:09:11.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/temp
+29-May-2026 13:09:11.298 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/rupeshshirole/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+29-May-2026 13:09:11.395 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-May-2026 13:09:11.405 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [183] milliseconds
+29-May-2026 13:09:11.419 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-May-2026 13:09:11.419 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.19]
+29-May-2026 13:09:11.428 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/FashionStore.war]
+29-May-2026 13:09:11.588 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-May-2026 13:09:11.599 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/FashionStore.war] has finished in [170] ms
+29-May-2026 13:09:11.600 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/docs]
+29-May-2026 13:09:11.610 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/docs] has finished in [10] ms
+29-May-2026 13:09:11.610 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/manager]
+29-May-2026 13:09:11.622 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/manager] has finished in [12] ms
+29-May-2026 13:09:11.622 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/examples]
+29-May-2026 13:09:11.682 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/examples] has finished in [60] ms
+29-May-2026 13:09:11.683 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/ROOT]
+29-May-2026 13:09:11.688 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/ROOT] has finished in [5] ms
+29-May-2026 13:09:11.688 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/host-manager]
+29-May-2026 13:09:11.694 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rupeshshirole/ecommerce-fashion-store/.tools/apache-tomcat-10.1.19/webapps/host-manager] has finished in [6] ms
+29-May-2026 13:09:11.696 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-May-2026 13:09:11.699 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [293] milliseconds
+29-May-2026 13:20:47.714 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-May-2026 13:20:47.723 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-May-2026 13:20:47.755 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [FashionStore] registered the JDBC driver [org.sqlite.JDBC] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+29-May-2026 13:20:47.764 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-May-2026 13:20:47.777 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
