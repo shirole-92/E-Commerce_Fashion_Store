@@ -30,7 +30,7 @@ https://e-commerce-fashion-store-hcjz.onrender.com/
 
 1. Clone the repository
 
-```https://github.com/shirole-92/E-Commerce_Fashion_Store.git
+```bsh https://github.com/shirole-92/E-Commerce_Fashion_Store.git
 ```
 
 2. Create MySQL database:
