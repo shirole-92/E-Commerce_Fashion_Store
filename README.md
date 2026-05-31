@@ -29,7 +29,7 @@ https://e-commerce-fashion-store-hcjz.onrender.com/
 ## 🚀 How to Run
 
 1. Clone the repository
-
+https://github.com/shirole-92/E-Commerce_Fashion_Store.git
 ```bash
 ```
 
